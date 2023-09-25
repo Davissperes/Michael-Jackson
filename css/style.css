@@ -5,16 +5,16 @@
 
 body{
   font-family: "trebuchet MS", Helvetica, sans-serif;
-  background: #white; url(../imagens/fundo.png) repeat-x;
+  background: white;
 }
 
-#topo {
+header {
   height: 150px;
   /*border: 1px solid red;*/
   background: url(../imagens/detalhe-topo.png) no-repeat right top;
   padding-top: 25px;
 }
-#container-principal{
+body{
   width: 750px;
   margin: 0 auto;
   padding: 1px solid red;
@@ -26,25 +26,22 @@ body{
   background: url(../imagens/logo.png) no-repeat center;
 }
 
-
-/* barra de navegação */
-
 ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#topo ul{
+nav ul{
   background: #eeba2b ;
   margin-top: 30px;
   float: left;
 }
-#topo ul li{
+header ul li{
   float: left;
 }
 
-#topo ul a{
+header ul a{
   font-size: 0.9em;
   display: block;
   padding: 0.5em 1.5em;
@@ -53,11 +50,11 @@ ul{
   color:#fff;
   background: url(../imagens/divisor.png) no-repeat left center;
 }
-#topo ul .primeiro a{
+header ul .primeiro a{
   background: none;
 }
 
-#topo ul a:hover{
+header ul a:hover{
   color: #69001d;
 }
 
@@ -87,10 +84,6 @@ body.fotos #navegacao a#fotos
 }
 /* fim de rodape */
 
-
-
-
-/* conteudo da biografia */
 .titulo-bio{
   margin-top: 60px;
   text-transform: uppercase ;
@@ -98,7 +91,7 @@ body.fotos #navegacao a#fotos
   font-size: 1.2em;
 }
 
-#conteudo-biografia{
+article{
   width: 750px;
   padding: 20px;
 
@@ -111,7 +104,7 @@ body.fotos #navegacao a#fotos
   margin-left: 33%;
 }
 
-#conteudo-biografia h1{
+article h1{
   text-transform: uppercase ;
   text-align: center;
   font-family: sans-serif;
@@ -120,7 +113,7 @@ body.fotos #navegacao a#fotos
 
 }
 
-#conteudo-biografia p{
+article p{
   text-align: justify;
   letter-spacing: 0.1em;
   padding-top: 5px;
@@ -129,10 +122,6 @@ body.fotos #navegacao a#fotos
   text-indent:4em
 }
 
-/* fim do conteúdo da biografia */
-
-
-/*inicio do conteúdo da pagina inicial */
 
 #conteudo h1{
   text-transform: uppercase ;
