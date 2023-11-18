@@ -68,13 +68,8 @@ body.fotos #navegacao a#fotos
 
 }
 
-/* fim de navegação */
 
 
-
-
-
-/* inicio do rodape */
 #container-rodape{
   background: #eeba2b;
   padding: 50px;
@@ -82,7 +77,7 @@ body.fotos #navegacao a#fotos
   text-align: center;
   font-size: 1.5em;
 }
-/* fim de rodape */
+
 
 .titulo-bio{
   margin-top: 60px;
@@ -152,19 +147,9 @@ article p{
   padding-bottom: 40px;
 }
 
-/*fim do conteudo da pagina inicial*/
-
-
-/*inicio da pagina fotos*/
 
 #conteudo .img-01, .img-02, .img-03, .img-04{
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-
-
-
-
-
-/*fim da pagina fotos*/
