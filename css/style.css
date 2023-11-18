@@ -153,3 +153,51 @@ article p{
   padding-bottom: 40px;
 }
 
+
+#quiz {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+  background: #eeba2b69;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#pergunta {
+  padding: 10px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#opcoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#feedback {
+  font-style: italic;
+  color: #888;
+  margin-top: 10px;
+  padding: 10px;
+}
